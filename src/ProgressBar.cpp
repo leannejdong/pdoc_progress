@@ -1,5 +1,6 @@
 #include "../include/ProgressBar.hpp"
 #include "unistd.h"
+#include "fmt/format.h"
 /* Defining the constructor */
 ProgressBar::ProgressBar(char notDoneChar, char doneChar, unsigned int size)
 :c(doneChar), ch(notDoneChar), size(size), todo(0), done(0)
@@ -41,10 +42,10 @@ void ProgressBar::fillUp()
 {
 	bar[pos] = c;
 	pos++;
-	
-	std::cout << '\r';
-	
-	for(int i = 0; i < bar.size(); i++)
+
+    std::cout << '\r';
+
+    for(int i = 0; i < bar.size(); ++i)
 	{
 		std::cout << bar[i] << std::flush;
 	}
@@ -54,7 +55,8 @@ void ProgressBar::fillUp()
 void ProgressBar::displayPercentage()
 {
 	float percent =   (float)(pos) / (float)(bar.size() - 1) * 100;
-	std::cout << (int)percent << "%";
+	fmt::print("{}%", (int)percent);
+    //std::cout << (int)percent << "%";
 }
 
 /* Shows tasks done out of the tasks to be done */
@@ -72,7 +74,8 @@ unsigned int ProgressBar::getSize()
 
 void ProgressBar::end()
 {
-	std::cout << std::endl;
+	//std::cout << "\n";
+    fmt::print("\n");
 }
 
 void ProgressBar::do_task() {
@@ -88,7 +91,8 @@ void ProgressBar::do_task() {
         usleep(0.1 * micros); // A delay of 0.1 second(s)
         foo.fillUp();
         foo.displayPercentage();
-        std::cout << " | ";
+        fmt::print(" | ");
+        //std::cout << " | ";
         foo.displayTasksDone();
     }
     foo.end();
