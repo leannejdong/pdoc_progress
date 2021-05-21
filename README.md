@@ -1,6 +1,4 @@
-# A Progress Bar for Postdoc Research
-
-## This is a little library for my postdoc progress.
+## Leanne's weekly postdoc research progress.
 
 ### To try
 
