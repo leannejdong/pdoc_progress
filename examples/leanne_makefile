@@ -1,0 +1,9 @@
+
+leanne: leanne.o ProgressBar.o
+	g++ leanne.o ProgressBar.o -o leanne
+
+leanne.o: leanne.cpp
+	g++ -c leanne.cpp
+
+ProgressBar.o: ../include/ProgressBar.hpp ../src/ProgressBar.cpp
+	g++ -c ../src/ProgressBar.cpp
