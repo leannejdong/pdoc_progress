@@ -10,8 +10,8 @@
 ```asm
 Nonlinear Hydraulic Network
 [##############################]100% | (30/30)
-Parser done, incidence matrix!
-Set up git+overleaf integration, git submodule for Majid, Leanne&Ursula's joint paper
+Parser done and incidence matrix derived!
+Have set up git+overleaf integration, git submodule for Majid, Leanne&Ursula's joint paper.
 Wait for Majid's update for circuit automation algorithm & derivation of nonlinear equations system
 
 Sparse optimal tree

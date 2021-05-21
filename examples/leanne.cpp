@@ -23,8 +23,9 @@ static void ursula(){
 
       foo.end();
 
-      std::cout << "Parser done, incidence matrix!\n";
-      std::cout << "Set up git+overleaf integration, git submodule for Majid, Leanne&Ursula's joint paper\n";
+      std::cout << "Parser done, incidence matrix derived!\n";
+      std::cout << "Have set up git+overleaf integration, git submodule for Majid, Leanne&Ursula's joint paper\n";
+      std::cout << "Some discussion on writing the theory component\n";
       std::cout << "Wait for Majid's update for circuit automation algorithm & derivation of nonlinear equations system\n";
 
 }
@@ -55,7 +56,8 @@ static void Jia(){
                 << "Doing profiling&performance optimization, \n"
                 << "Resolving false-sharing bugs in multithreading\n"
                 << "Refactoring\n"
-                << "Write-up\n!";
+                << "Continue write-up\n"
+                << "Explain small amount of things but in details, especially codes...\n";
 }
 
 int main()
