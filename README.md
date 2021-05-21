@@ -13,8 +13,9 @@ Nonlinear Hydraulic Network
 Parser done, incidence matrix derived!
 Added unit tests 
 Have set up git+overleaf integration, git submodule for Majid, Leanne&Ursula's joint paper
+Majid has documented his work so far
 Some discussion on writing the theory component
-Majid has been illed...
+Majid has been illed from taking Moderna...
 Wait for Majid's update for circuit automation algorithm & derivation of nonlinear equations system
 
 
