@@ -30,6 +30,9 @@ class ProgressBar
 		/* Returns the size of the progress bar */
 		unsigned int getSize();
 
+        /*task bar*/
+        void do_task();
+
 	private:
 		unsigned int size = 0;
 		unsigned int pos = 1;

@@ -1,4 +1,5 @@
 #include "../include/ProgressBar.hpp"
+#include "unistd.h"
 /* Defining the constructor */
 ProgressBar::ProgressBar(char notDoneChar, char doneChar, unsigned int size)
 :c(doneChar), ch(notDoneChar), size(size), todo(0), done(0)
@@ -72,4 +73,23 @@ unsigned int ProgressBar::getSize()
 void ProgressBar::end()
 {
 	std::cout << std::endl;
+}
+
+void ProgressBar::do_task() {
+    unsigned int micros = 1000000; // microseconds to seconds
+
+    ProgressBar foo('.', '#', 30);
+
+    foo.done = 0;
+    foo.todo = foo.getSize();
+    for(int i = 0; i < foo.getSize(); i++)
+    {
+        foo.done++;
+        usleep(0.1 * micros); // A delay of 0.1 second(s)
+        foo.fillUp();
+        foo.displayPercentage();
+        std::cout << " | ";
+        foo.displayTasksDone();
+    }
+    foo.end();
 }
