@@ -2,4 +2,4 @@ leanne:
 	make -f leanne_makefile
 
 clean:
-	rm *.o
+	rm *.o leanne
