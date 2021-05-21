@@ -16,14 +16,14 @@ Parser done, incidence matrix!
 Set up git+overleaf integration, git submodule for Majid, Leanne&Ursula's joint paper
 Wait for Majid's update for circuit automation algorithm & derivation of nonlinear equations system
 
-
 Sparse optimal tree
 [##############################]100% | (30/30)
-Version1 done, 5 tests done, 
-profilling partially done, 
-doing profiling&performance optimization, 
-resolving false-sharing bugs in concurrency
-write-up
+Version 1 done, 5 tests done, 
+Profilling partially done, 
+Doing profiling&performance optimization, 
+Resolving false-sharing bugs in multithreading
+Refactoring
+Write-up
 
 ```
 

@@ -50,11 +50,12 @@ static void Jia(){
 
       foo.end();
 
-      std::cout << "Version1 done, 5 tests done, \n"
-                <<   "profilling partially done, \n"
-                << "doing profiling&performance optimization, \n"
-                << "resolving false-sharing bugs in concurrency\n"
-                << "write-up\n!";
+      std::cout << "Version 1 done, 5 tests done, \n"
+                <<  "Profilling partially done, \n"
+                << "Doing profiling&performance optimization, \n"
+                << "Resolving false-sharing bugs in multithreading\n"
+                << "Refactoring\n"
+                << "Write-up\n!";
 }
 
 int main()
