@@ -24,8 +24,10 @@ static void ursula(){
       foo.end();
 
       std::cout << "Parser done, incidence matrix derived!\n";
+      std::cout << "Added unit tests \n";
       std::cout << "Have set up git+overleaf integration, git submodule for Majid, Leanne&Ursula's joint paper\n";
       std::cout << "Some discussion on writing the theory component\n";
+      std::cout << "Majid has been illed...\n";
       std::cout << "Wait for Majid's update for circuit automation algorithm & derivation of nonlinear equations system\n";
 
 }
@@ -52,12 +54,12 @@ static void Jia(){
       foo.end();
 
       std::cout << "Version 1 done, 5 tests done, \n"
-                <<  "Profilling partially done, \n"
+                << "Profilling partially done, \n"
                 << "Doing profiling&performance optimization, \n"
                 << "Resolving false-sharing bugs in multithreading\n"
                 << "Refactoring\n"
-                << "Continue write-up\n"
-                << "Explain small amount of things but in details, especially codes...\n";
+                << "Continue write-up, "
+                << "Try to explain small amount of things but in details, especially codes...\n";
 }
 
 int main()
