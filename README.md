@@ -7,12 +7,16 @@
 
 ## Progress (Ursula, Jia/Freddy)
 
-```asm
+```markdown
 Nonlinear Hydraulic Network
 [##############################]100% | (30/30)
-Parser done and incidence matrix derived!
-Have set up git+overleaf integration, git submodule for Majid, Leanne&Ursula's joint paper.
+Parser done, incidence matrix derived!
+Added unit tests 
+Have set up git+overleaf integration, git submodule for Majid, Leanne&Ursula's joint paper
+Some discussion on writing the theory component
+Majid has been illed...
 Wait for Majid's update for circuit automation algorithm & derivation of nonlinear equations system
+
 
 Sparse optimal tree
 [##############################]100% | (30/30)
@@ -22,7 +26,6 @@ Doing profiling&performance optimization,
 Resolving false-sharing bugs in multithreading
 Refactoring
 Write-up
-
 ```
 
 
