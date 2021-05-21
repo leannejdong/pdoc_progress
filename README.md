@@ -1,6 +1,6 @@
 # Leanne's weekly research progress.
 
-### To try
+## To try
 
 * `leanne.cpp` - You can do it via `make leanne`. Assuming you havn't moved any files.
 *  Run with `./leanne`
