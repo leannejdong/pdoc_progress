@@ -22,9 +22,13 @@ static void ursula(){
     fmt::print("Have set up git+overleaf integration, git submodule for Majid, Leanne&Ursula's joint paper\n");
     foo.do_task();
     fmt::print("Some discussion on writing the theory component\n");
+    fmt::print("Gotlieb's algorithm I used in circuit/Lachine has been verified to be correct in finding cycle \n");
+    fmt::print("https://godbolt.org/z/796a64n63\n");
+    fmt::print("Equations system can be easily derived by\n");
+    fmt::print("applying node+loop incidence matrices to the mass flow&heat loss equations\n");
     fmt::print("To-do\n");
-    fmt::print("Majid has been illed from taking vaccine\n");
-    fmt::print("Wait for Majid's update for circuit automation algorithm & derivation of nonlinear equations system\n");
+    fmt::print("\n");
+    fmt::print("Solve the nonlinear system of equations\n");
 
 }
 
@@ -41,12 +45,12 @@ static void Jia(){
     foo.do_task();
     std::cout << "To-do\n";
     std::cout << "Profilling partially done, \n"
-            << "Doing profiling&performance optimization, \n"
-            << "Resolving false-sharing bugs in multithreading\n"
-            << "Refactoring\n"
-            << "Continue write-up, "
-            << "Try to explain small amount of things but in details, especially codes...\n"
-            << "Fix an error in the python interface\n";
+              << "Doing profiling&performance optimization, \n"
+              << "Resolving false-sharing bugs in multithreading\n"
+              << "Refactoring\n"
+              << "Continue write-up, "
+              << "Try to explain small amount of things but in details, especially codes...\n"
+              << "Fix an error in the python interface\n";
 }
 
 int main()
