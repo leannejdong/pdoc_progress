@@ -28,11 +28,7 @@ applying node+loop incidence matrices to the mass flow&heat loss equations
 [##############################]100% | (30/30)
 To-do
 
-Solve the nonlinear system of equations
-
-To-do
-Majid has been illed from taking vaccine
-Wait for Majid's update for circuit automation algorithm & derivation of nonlinear equations system
+Solve the nonlinear system of equations via newton like algorithm
 
 Multiway Optimal Sparse decision tree
 [##############################]100% | (30/30)

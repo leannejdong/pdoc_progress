@@ -32,7 +32,7 @@ static void ursula(){
     foo.do_task();
     fmt::print("To-do\n");
     fmt::print("\n");
-    fmt::print("Solve the nonlinear system of equations\n");
+    fmt::print("Solve the nonlinear system of  via newton like algorithm\n");
 
 }
 
