@@ -19,6 +19,17 @@ Added unit tests
 Have set up git+overleaf integration, git submodule for Majid, Leanne&Ursula's joint paper
 [##############################]100% | (30/30)
 Some discussion on writing the theory component
+[##############################]100% | (30/30)
+Gotlieb's algorithm I used in circuit/Lachine has been verified to be correct in finding cycle
+https://godbolt.org/z/796a64n63
+[##############################]100% | (30/30)
+Equations system can be easily derived by applying
+applying node+loop incidence matrices to the mass flow&heat loss equations
+[##############################]100% | (30/30)
+To-do
+
+Solve the nonlinear system of equations
+
 To-do
 Majid has been illed from taking vaccine
 Wait for Majid's update for circuit automation algorithm & derivation of nonlinear equations system
