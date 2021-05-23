@@ -21,17 +21,18 @@ Have set up git+overleaf integration, git submodule for Majid, Leanne&Ursula's j
 Some discussion on writing the theory component
 [##############################]100% | (30/30)
 Gotlieb's algorithm I used in circuit/Lachine has been verified to be correct in finding cycle
-https://godbolt.org/z/796a64n63
+[code](https://godbolt.org/z/796a64n63)
 [##############################]100% | (30/30)
 Example in Liu's thesis p.21 has been implemented as
-https://godbolt.org/z/r1MeKs7aK
+[code](https://godbolt.org/z/r1MeKs7aK)
 [##############################]100% | (30/30)
 Equations system can be easily derived by applying
 applying node+loop incidence matrices to the mass flow&heat loss equations
 [##############################]100% | (30/30)
+
 To-do
 
-Solve the nonlinear system of equations via newton like algorithm
+Solve the nonlinear system of hydraulic equations via newton like algorithm based on demand data
 
 Multiway Optimal Sparse decision tree
 [##############################]100% | (30/30)
