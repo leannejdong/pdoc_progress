@@ -23,6 +23,9 @@ Some discussion on writing the theory component
 Gotlieb's algorithm I used in circuit/Lachine has been verified to be correct in finding cycle
 https://godbolt.org/z/796a64n63
 [##############################]100% | (30/30)
+Example in Liu's thesis p.21 has been implemented as
+https://godbolt.org/z/r1MeKs7aK
+[##############################]100% | (30/30)
 Equations system can be easily derived by applying
 applying node+loop incidence matrices to the mass flow&heat loss equations
 [##############################]100% | (30/30)

@@ -26,8 +26,11 @@ static void ursula(){
     fmt::print("Gotlieb's algorithm I used in circuit/Lachine has been verified to be correct in finding cycle \n");
     fmt::print("https://godbolt.org/z/796a64n63\n");
     foo.do_task();
+    fmt::print("Example in Liu's thesis p.21 has been implemented as \n");
+    fmt::print("https://godbolt.org/z/r1MeKs7aK \n");
+    foo.do_task();
 
-    fmt::print("Equations system can be easily derived by applying\n");
+    fmt::print("Equations system can be easily derived by \n");
     fmt::print("applying node+loop incidence matrices to the mass flow&heat loss equations\n");
     foo.do_task();
     fmt::print("To-do\n");
