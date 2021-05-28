@@ -33,9 +33,15 @@ static void ursula(){
     fmt::print("Equations system can be easily derived by \n");
     fmt::print("applying node+loop incidence matrices to the mass flow&heat loss equations\n");
     foo.do_task();
+    fmt::print("We've derived the nonlinear hydraulic system\n");
+    foo.do_task();
+    fmt::print("In progress\n");
+    fmt::print("To solve, we loop over all 8760 days and call the newton method. This is implemented in both C++ and MATLAB\n");
+    fmt::print("https://godbolt.org/z/319aTjd13\n");
+    fmt::print("\n");
     fmt::print("To-do\n");
     fmt::print("\n");
-    fmt::print("Solve the nonlinear hydraulic system of  via newton like algorithm using our own demand data.\n");
+    fmt::print("Complete the implementation...there is some tough bugs to sort out.\n");
 
 }
 
@@ -46,24 +52,27 @@ static void Jia(){
     foo.done = 0;
     foo.todo = foo.getSize();
 
-    std::cout << "Multiway Optimal Sparse decision tree\n";
+    fmt::print("Multiway Optimal Sparse decision tree\n");
     foo.do_task();
-    std::cout << "Version 1 done, added 5 tests, \n";
+    fmt::print("Version 1 done, added 5 tests. \n");
     foo.do_task();
-    std::cout << "To-do\n";
-    std::cout << "Profilling partially done, \n"
-              << "Doing profiling&performance optimization, \n"
-              << "Resolving false-sharing bugs in multithreading\n"
-              << "Refactoring\n"
-              << "Continue write-up, "
-              << "Try to explain small amount of things but in details, especially codes...\n"
-              << "Fix an error in the python interface\n";
+    fmt::print("To-do\n");
+    fmt::print("Profilling partially done, \n"
+               "Doing profiling&performance optimization, \n"
+               "Resolving false-sharing bugs in multithreading,\n"
+               "Refactoring,\n"
+               "Continue write-up, "
+               "Try to explain small amount of things but in details, especially codes...\n"
+               "Fix an error in the python interface,\n"
+               "Find someone to do code review.\n");
 }
 
 int main()
 {
-      ursula();
-      std::cout << "\n";
-      Jia();
-      return 0;
+
+    fmt::print("The week 24-28th, May");
+    ursula();
+    fmt::print("\n");
+    Jia();
+    return 0;
 }
