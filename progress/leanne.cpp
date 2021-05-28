@@ -70,7 +70,7 @@ static void Jia(){
 int main()
 {
 
-    fmt::print("The week 24-28th, May");
+    fmt::print("The week 24-28th, May\n");
     ursula();
     fmt::print("\n");
     Jia();
